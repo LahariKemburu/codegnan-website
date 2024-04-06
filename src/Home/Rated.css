@@ -1,0 +1,33 @@
+
+/* .grid-container{
+    height:92px;
+    width:313px;
+}  */
+    .grid-item{
+       display: inline-block;
+       padding:10px;
+       border:2px solid darkgray;
+       box-shadow: 0 0 10px gray;
+       border-radius: 4px;
+    
+       img{
+        height:63px;
+        width:63px;
+    }
+    }
+    #grid_data{
+        padding:0px 0px 0px 30px;
+        border: none;
+        box-shadow: none;
+        span{
+           
+            font-size: 22px;
+            color: #808080;
+        }
+        p{
+            font-size: 20px;
+            color: black;
+            font-weight: bold;
+        }
+
+    }

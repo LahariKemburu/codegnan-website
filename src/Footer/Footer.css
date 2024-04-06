@@ -1,0 +1,158 @@
+.Footer {
+    /* margin-top: 100px; */
+    padding: 100px 150px 30px 100px;
+    background-color: #010F0D;
+    color: #bababa;
+
+}
+
+.elementor_selection {
+    display: inline;
+    color: #bababa;
+    font-size: 17px;
+
+    #strong {
+        color: white;
+        font-weight: bold;
+    }
+
+    #main_p {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 664px;
+        height: 96px;
+    }
+
+    .branch_details {
+        width: 664px;
+        height: 328px;
+        padding: 20px 0px;
+
+        a {
+            text-decoration: none;
+            color: #CC3366;
+            font-weight: 900;
+        }
+
+        a:hover {
+            color: #1AB69D
+        }
+    }
+
+    .populated {
+        padding: 10px;
+        margin-left: 150px;
+        margin-top: 16px;
+
+        span {
+            display: block;
+            margin-bottom: 20px;
+        }
+
+        span:hover {
+            color: white;
+        }
+
+    }
+
+}
+
+
+#logo2 {
+    width: 290px;
+    height: 92px;
+
+}
+
+.center {
+    width: 50;
+    display: flex;
+}
+
+.social-icon {
+    font-size: 19px;
+    padding: 5px;
+
+}
+
+.fa-linkedin-in {
+    color: #0077b5;
+}
+
+.fa-youtube {
+    color: #ff0000;
+}
+
+.fa-facebook {
+    color: #3b5998;
+}
+
+.fa-twitter {
+    color: #1da1f2;
+}
+
+.fa-instagram {
+    color: #c13584;
+}
+
+.fa-whatsapp {
+    color: #25d366;
+}
+
+.social-icon:hover {
+    color: white;
+}
+
+.our_courses {
+    height: 381px;
+    width: 1140px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: 2px solid white;
+    border-radius: 10px;
+  
+
+    .courses {
+        padding: 10px;
+        justify-content: space-evenly;
+
+        h3 {
+            color: white;
+        }
+
+        a {
+            text-decoration: none;
+            color: #CC3366;
+            font-weight: 500;
+            display: block;
+    
+        }
+        a:hover {
+            color: #1AB69D
+        }
+
+    }
+
+}
+.footer_end{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    a{
+        padding: 7px;
+        color:#CC3366;
+        text-decoration: none;
+    }
+    a:hover {
+        color: #1AB69D
+    }
+    p{
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+  
+}

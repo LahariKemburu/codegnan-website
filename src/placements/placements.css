@@ -1,0 +1,30 @@
+.Placements {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:80px 150px 80px 150px;
+    margin-top: 96px;
+    span{
+        color:#1AB6AD;
+    }
+    h2{
+        font-size: 36px;
+    }
+}
+.Photo{
+    width: 349.99px;
+    height: 349.99px;
+    box-shadow: 0 0 20px rgb(41, 40, 40);
+    border-radius: 10px;
+    transform: translateY(0);
+    transition: transform 0.3s ease; 
+}
+.Photo:hover{
+    transform: translateY(0.3cm);
+}
+.Placement_photos{
+    padding:20px 100px 20px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
