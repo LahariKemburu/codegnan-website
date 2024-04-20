@@ -17,7 +17,7 @@ function App() {
   return(
     <div>
       
-      <BrowserRouter>
+     
       <Nav/>
       <Routes>
       <Route path="/" element={<Home/>  } />
@@ -28,7 +28,6 @@ function App() {
         <Route path='/python_training_in_banglore' element={<Python_training_in_banglore />}></Route>
         <Route path='/python_training_in_hyderabad' element={<Python_training_in_hyderabad />}></Route>
       </Routes>
-      </BrowserRouter> 
       {/* <Pre></Pre> */}
        <Footer></Footer>    
        {/* <Companies/> */}
