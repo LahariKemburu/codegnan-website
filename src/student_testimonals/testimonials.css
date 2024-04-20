@@ -1,0 +1,48 @@
+.test-container{
+    padding: 20px 200px;
+    font-family: sans-serif;
+}
+.mt-20{
+   .three{
+    border: 1px solid black;
+    min-height: 600px;
+    background-color: white;
+    padding: 30px;
+    margin-right:  0 10px;
+    p{
+        color:black;
+        padding-top: 30px;
+        font-size: 18px;
+        line-height: 1.5;
+        font-weight: lighter;
+    }}
+}
+.one{
+        font-size: 25px;
+        font-weight: bolder;
+        color:#1AB69D;
+        
+}
+.two{
+    font-size: 30px;
+    color: #CC3366;
+}
+
+.review{
+   height:400px;
+}
+.slider-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 40px; 
+  }
+.star{
+    color:gold;
+    padding: 3px;
+    font-size: 20px;
+}
+.custom-dots li button:before {
+    color: white; 
+    font-size: 10px;
+  }
+  

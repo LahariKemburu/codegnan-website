@@ -1,54 +1,307 @@
 .home {
     margin-top: 96px;
-    padding:64px  0px   70px;
+    padding: 90px 0px 70px;
     background-color: #1F2163;
     display: flex;
     justify-content: space-around;
+    p{
+        font-size: 18px;
+    }
 }
-.banner_div{
-    height:670px;
-    width:513px;
+
+.banner_div {
+    height: 670px;
+    width: 513px;
     color: #E9e9e9;
-    padding:0 0 0 48px;
-    h1{
+    padding: 0 0 0 48px;
+
+    h1 {
         font-size: 36px;
-        color:#FFFFFF;
+        color: #FFFFFF;
     }
+
     font-size: 21px;
-    span{
-        color:#1AB69D;
-    }
-    ul{
+
+    ul {
         list-style-type: none;
     }
-    li{
+
+    li {
         margin-bottom: 15px;
+        font-size: 18px;
     }
-    .check{
-        color:#CC3366;
-        padding:5px;
+
+    .check {
+        color: #CC3366;
+        padding: 5px;
         font-size: 25px;
     }
-    .check:hover{
-        color:#1AB69D;
+
+    .check:hover {
+        color: #1AB69D;
     }
-    a{
+
+    a {
         background-color: #1AB69D;
-        padding: 20px;
+        padding: 18px;
         text-decoration: none;
         color: #FFFFFF;
         border-radius: 5px;
     }
-    a:hover{
+
+    a:hover {
         background-color: #CC3366;
     }
 }
-.rating_container{
-    padding:50px 0px;
+
+.rating_container {
+    padding: 50px 0px;
 }
-.rated_div{
+
+.rated_div {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
 
+.certification_program {
+    margin-top: 80px;
+    padding: 50px;
+
+    h1 {
+        font-size: 36px;
+
+    }
+
+    .custom-icon {
+        color: rgb(255, 217, 0);
+        font-size: 40px;
+        padding: 10px;
+    }
+
+
+}
+
+.change_color {
+    color: #1AB69D
+}
+
+.course_details_container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    justify-content: center;
+    align-items: center;
+}
+
+.company_tie_up {
+    padding: 50px 0px;
+
+    h2 {
+        padding-bottom: 20px;
+        font-size: 36px;
+    }
+
+    .company_tie_up_in {
+        padding: 10px 150px 30px 150px;
+
+    }
+
+    img {
+        width: 112px;
+        height: 36px;
+        margin: 10px;
+        padding: 10px;
+        width: 166px;
+        height: 65px;
+        border: 2px solid black;
+        border-radius: 5px;
+    }
+
+    .company_logo_container {
+        padding: 10px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(166px, 1fr));
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+
+}
+
+.hidden {
+    display: none;
+}
+
+.Why_to_enroll {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #ebebeb;
+    transition: all 0.5s ease;
+
+    .why_to_enroll_heading {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 540px;
+        height: 624px;
+        padding: 10px;
+    }
+
+    .why_to_entroll_details {
+        border-radius: 5px;
+        background-color: #FFFFFF;
+        box-shadow: 0 0 10px white;
+        width: 604px;
+        margin: 10px;
+        padding: 10px 15px;
+
+        cursor: pointer;
+
+        .hidden {
+            display: none;
+            transition: all 0.5s ease;
+        }
+
+        .heading-clicked {
+            color: #1AB69D;
+        }
+
+        .buttonclick {
+            cursor: pointer;
+        }
+
+        h3 {
+            font-weight: 100;
+            padding: 15px;
+        }
+
+        p {
+            padding: 15px;
+            font-size: 16px;
+        }
+
+        a {
+            color: #CC3366;
+            font-weight: 800;
+            text-decoration: none;
+        }
+
+    }
+}
+
+.testimonials{
+    padding:64px 0px;
+    background-color: #0F1D42;
+    h1{
+        font-size: 34px;
+        color:#FFFFFF;
+    }
+    .change_color{
+        color:#1AB69D;
+        padding:none;
+      }
+}
+.top-notch-team{
+    padding: 55px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .notch-team-heading{
+        font-size: 36px;
+        line-height: 1.5;
+        color:#181818;
+    }
+    .check {
+        color: #CC3366;
+        padding: 5px;
+        font-size: 25px;
+    }
+
+    .check:hover {
+        color: #1AB69D;
+    }
+    ul {
+        list-style-type: none;
+    }
+
+    li {
+        margin-bottom: 15px;
+        font-size: 18px;
+    }
+}
+
+.div_container_notch_team{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div_container_notch_team_section2{
+    img{
+        height: 300px;
+        width:200px;
+        border: none;
+    }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Our_training_center{
+    background-color: #ebebeb;
+    padding: 80px 100px;
+    .center_details{
+        background-color: white;
+        width:400px;
+        height:250px;
+        border-radius: 5px;
+        border: 2px solid black;
+        padding: 10px;
+        margin:10px;
+        a{
+            text-decoration: none;
+            color: #CC3366;
+            font-weight: 800;
+        }
+    }
+    .phone{
+        color: #CC3366;
+        padding: 10px;
+    }
+    h3{
+        padding: 10px;
+    }
+    p{
+        padding: 10px;
+        line-height: 1.5;
+    }
+    .div_container_training_center{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    }
+}
+.our_collaborations{
+    padding: 100px 110px;
+}
+.still_douts{
+    color:white;
+    background-color: rgb(2, 45, 33);
+    width:1000px;
+    height:250px;
+    padding: 50px;
+   p{
+    line-height: 1.5;
+    font-size: 18px;
+   }
+   button{
+    height: 30px;
+    width: 100px;
+    cursor: pointer;
+    border:2px solid white;
+    border-radius: 5px;
+   }
+   button:hover{
+    background-color: #CC3366;
+    color: white;
+   }
+}

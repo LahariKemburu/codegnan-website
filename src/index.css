@@ -2,8 +2,14 @@
   margin:0;
   padding:0;
   box-sizing: border-box;
-  /* font-family: inter, sans-serif; */
+  font-family: inter, sans-serif;
 }
 body{
   width:calc(100vw - (100vw - 100%));
+}
+
+
+.change_color{
+  color:#1AB69D;
+  padding:none;
 }

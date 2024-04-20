@@ -1,3 +1,107 @@
-.About {
+.team_about {
+    h1{
+        padding: 20px;
+        font-size: 45px;
+    }
     margin-top: 96px;
+    a{
+        text-decoration: none;
+        font-size: 28px;
+        color: #EE4A62;
+    }
+    p{
+        font-size: 20px;
+    }
+    .social-icon{
+        padding: 5px;
+    }
+    .social-icon:hover{
+        color: black;
+    }
+   
 }
+.ceo{
+    display: flex;
+    flex-direction: row;
+    padding:50px 100px;
+    .ceo_img{
+        width:359px;
+        height:400px;
+        padding: 40px 40px;
+        box-shadow: 0 0 10px gray;
+        border-radius: 10px;
+        img{
+            width:250px;
+            height: 250px;
+        }
+        
+    }
+    .ceo_info{
+        margin-top: -25px;
+        width:750px;
+        height:150px;
+        padding:50px;
+      
+       
+    }
+}
+.codegnan_members{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding:30px 100px;
+    .members_div{
+        width:290px;
+        height:470px;
+        padding: 10px;
+        box-shadow: 0 0 10px gray;
+        img{
+            width: 250px;
+            height: 300px;
+        }
+        p{
+            color:darkgrey;
+            font-size: 20px;
+        }
+        a{
+            font-size: 24px;
+        }
+        .social-icon{
+            font-size: 22px;
+        }
+    }
+}
+.Gallery_container{
+    margin-top: 100px;
+    .Gallery_heading{
+        padding: 50px 100px;
+        min-height:220px;
+        background-color: rgb(217, 241, 246);
+        a{
+            text-decoration: none;
+            color: grey;
+        }
+        strong{
+            color: black;
+        }
+        h1{
+            margin-top: 40px;
+            margin-left: 150px;
+            color: #EE4A62;
+        }
+    }
+   
+}
+.gallery-photos{
+    padding:100px;
+    display: grid;
+    grid-gap:20px 10px;
+    grid-template-columns: repeat(auto-fit, minmax(262px, 1fr));
+    
+    .imgp{
+        width: 261.25px;
+        height:196.25px;
+        border-radius: 5px;
+    }
+}
+

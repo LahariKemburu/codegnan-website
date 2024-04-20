@@ -1,7 +1,8 @@
-// import './App.css';
+import './App.css';
 import Slider from "react-slick"; 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+
 
 
 function Collaboration() {
@@ -10,19 +11,18 @@ function Collaboration() {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 6,
+    slidesToShow: 9,
     slidesToScroll: 2
   };
 
   return (
     <div className="w-3/4 m-auto">
       <div className="mt-20">
-        <h1>Our Collaboration</h1>
       <Slider {...settings}>
         {data.map((d) =>(
-            <div className="">
-              <div className='collaboration-one'>
-                <img src={d.img} alt="Error" className="collaboration"/>
+            <div className="" >
+              <div className='collaboration-one' style={{backgroundColor:"white"}}>
+                <img src={d.img} alt="Error" className="collaboration"  style={{width:"120px",height:"120px"}}/>
               </div>
              
             </div>
@@ -47,9 +47,9 @@ const data = [
   {
     img : './collaboration/gec.webp',
   },
-  // {
-  //   img : './collaboration/geetanjali.webp',
-  // },
+  {
+    img : './collaboration/geetanjali.webp',
+  },
   
   {
     img : './collaboration/logo-1.webp',

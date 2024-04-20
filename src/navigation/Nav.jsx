@@ -2,19 +2,24 @@ import './Nav.css';
 import logo from '../assets/Logo.png';
 import { Link } from "react-router-dom";
 
+
 export default function Nav() {
   return (
     <div className="Navbar">
-      <a href="/"><img id="logo" src={logo} alt="Logo" /></a>
+      <Link to="/"> 
+      <img id="logo" src={logo} alt="Logo" />
+      </Link>
+      
       <span className='Home'>
         <div className="dropdown">
+          
           <button className="dropbtn">Trainings <span className='down_triangle'>&#9660;</span></button>
           <div className="dropdown-content">
             <a href="#" className="option">Python Trainings <span>&#9654;</span></a>
             <div className="side-listings">
               <ul>
-                <li>In Banglore </li>
-                <li>In Hyderabad</li>
+                <a href="./python_training_in_banglore"><li>In Banglore </li></a>
+                <a href="./python_training_in_hyderabad"><li>In Hyderabad</li></a>
                 <li>In Vijayawada</li>
               </ul>
             </div>
@@ -86,8 +91,8 @@ export default function Nav() {
             <a href="#" className="option">Syllabus <span>&#9654;</span></a>
             <div className="side-listings">
               <ul>
-                <li>Java Syllabus</li>
-                <li>Data structures</li>
+                <a href="./java_course_page"><li>Java Syllabus</li></a>
+                <a href="./ds_course_page"><li>Data structures</li></a>
                 <li>Python syllabus</li>
                 <li>React JS syllabus</li>
                 <li>C language syllabus</li>
@@ -104,8 +109,8 @@ export default function Nav() {
         <div className="dropdown">
           <button className="dropbtn">About <span className='down_triangle'>&#9660;</span></button>
           <div className="dropdown-content">
-            <a href="/about/team" className="option">Team </a>
-            <a href="#" className="option">Gallery</a>
+            <a href="./about" className="option">Team </a>
+            <a href="./gallery" className="option">Gallery</a>
             <a href="#" className="option">Internships</a>
             <a href="#" className="option">Job Accelerator Program</a>
           </div>

@@ -68,15 +68,87 @@ import photo_63 from './Photos/63.webp';
 export default function Placements() {
     return (
         <div>
-        <div className="Placements">
-            <h2><span>Our Placement Team Will Help To Shape</span> Your Career  <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Opportunities</h2>
-        </div>
+            <div className="Placements">
+                <h2><span>Our Placement Team Will Help To Shape</span> Your Career  <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Opportunities</h2>
+            </div>
+            <div className="container">
+                
+                <div className='Placement-photos'>
+                <img className='Photo' src={photo_1} />
+                    <img className='Photo' src={photo_2} />
+                    <img className='Photo' src={photo_3} />
+                    <img className='Photo' src={photo_1} />
+                    <img className='Photo' src={photo_2} />
+                    <img className='Photo' src={photo_3} />
+                    <img className='Photo' src={photo_4} />
+                    <img className='Photo' src={photo_5} />
+                    <img className='Photo' src={photo_6} />
+                    <img className='Photo' src={photo_7} />
+                    <img className='Photo' src={photo_8} />
+                    <img className='Photo' src={photo_9} />
+                    <img className='Photo' src={photo_10} />
+                    <img className='Photo' src={photo_11} />
+                    <img className='Photo' src={photo_12} />
+                    <img className='Photo' src={photo_13} />
+                    <img className='Photo' src={photo_14} />
+                    <img className='Photo' src={photo_15} />
+                    <img className='Photo' src={photo_16} />
+                    <img className='Photo' src={photo_17} />
+                    <img className='Photo' src={photo_18} />
+                    <img className='Photo' src={photo_19} />
+                    <img className='Photo' src={photo_20} />
+                    <img className='Photo' src={photo_21} />
+                    <img className='Photo' src={photo_22} />
+                    <img className='Photo' src={photo_23} />
+                    <img className='Photo' src={photo_24} />
+                    <img className='Photo' src={photo_25} />
+                    <img className='Photo' src={photo_26} />
+                    <img className='Photo' src={photo_27} />
+                    <img className='Photo' src={photo_28} />
+                    <img className='Photo' src={photo_29} />
+                    <img className='Photo' src={photo_30} />
+                    <img className='Photo' src={photo_31} />
+                    <img className='Photo' src={photo_32} />
+                    <img className='Photo' src={photo_33} />
+                    <img className='Photo' src={photo_34} />
+                    <img className='Photo' src={photo_35} />
+                    <img className='Photo' src={photo_36} />
+                    <img className='Photo' src={photo_37} />
+                    <img className='Photo' src={photo_38} />
+                    <img className='Photo' src={photo_39} />
+                    <img className='Photo' src={photo_40} />
+                    <img className='Photo' src={photo_41} />
+                    <img className='Photo' src={photo_42} />
+                    <img className='Photo' src={photo_43} />
+                    <img className='Photo' src={photo_44} />
+                    <img className='Photo' src={photo_45} />
+                    <img className='Photo' src={photo_46} />
+                    <img className='Photo' src={photo_47} />
+                    <img className='Photo' src={photo_48} />
+                    <img className='Photo' src={photo_49} />
+                    <img className='Photo' src={photo_50} />
+                    <img className='Photo' src={photo_51} />
+                    <img className='Photo' src={photo_52} />
+                    <img className='Photo' src={photo_53} />
+                    <img className='Photo' src={photo_54} />
+                    <img className='Photo' src={photo_55} />
+                    <img className='Photo' src={photo_56} />
+                    <img className='Photo' src={photo_57} />
+                    <img className='Photo' src={photo_58} />
+                    <img className='Photo' src={photo_59} />
+                    <img className='Photo' src={photo_60} />
+                    <img className='Photo' src={photo_61} />
+                    <img className='Photo' src={photo_62} />
+                    <img className='Photo' src={photo_63} />
+                </div>
+            </div>
+
+            {/*
         <div className='Placement_photos'>
     <img className='Photo' src={photo_1} />
     <img className='Photo' src={photo_2} />
     <img className='Photo' src={photo_3} />
 </div>
-{/* <MainComponent></MainComponent> */}
 <div className='Placement_photos'>
     <img className='Photo' src={photo_4} />
     <img className='Photo' src={photo_5} />
@@ -176,12 +248,12 @@ export default function Placements() {
     <img className='Photo' src={photo_61} />
     <img className='Photo' src={photo_62} />
     <img className='Photo' src={photo_63} />
-</div>
+    </div>*/}
 
 
-        
-        
-        
+
+
+
         </div>
     );
 }

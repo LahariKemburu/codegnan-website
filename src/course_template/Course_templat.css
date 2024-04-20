@@ -1,0 +1,32 @@
+.Course_Template{
+    margin-top: 96px;
+    background-color: #f8f8f8;
+    padding:50px 0px 50px ;
+    .Course_Template_container{
+        box-shadow: 0 0 10px #f8f8f8;
+        background-color:white;
+        margin:0px 250px;
+        padding:20px;
+        border-radius: 10px;
+        h1{
+            font-weight: 300;
+            font-size: 36px;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        .course_icons{
+            color: #ee4a62;
+            padding: 10px;
+        }
+        .image{
+            padding-top: 30px;
+        }
+        p{
+            padding: 10px;
+            font-size: 18px;
+        }
+    }
+   
+}

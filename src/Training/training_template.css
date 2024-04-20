@@ -1,0 +1,32 @@
+.tth{
+    margin-top: 100px;
+    padding: 50px 0px;
+}
+.download_broucher{
+    height:36px;
+    width: 340px;
+    padding:10px 20px;
+    color:white;
+    border-radius: 10px;
+    background-color: #ba243b;
+    button{
+        font-size: 16px;
+        background-color:#ba243b;
+        color: white;
+        border: none;
+        span{
+            text-decoration: underline;
+        }
+        cursor: pointer;
+    }
+}
+.ins{
+    font-size: 28px;
+    font-weight: 680;
+    color: #ba243b;
+}
+.course_head_details{
+    width:720px;
+    padding:20px;
+    margin:10px;
+}
