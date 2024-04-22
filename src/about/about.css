@@ -3,7 +3,7 @@
         padding: 20px;
         font-size: 45px;
     }
-    margin-top: 96px;
+    /* margin-top: 96px; */
     a{
         text-decoration: none;
         font-size: 28px;
@@ -72,7 +72,7 @@
     }
 }
 .Gallery_container{
-    margin-top: 100px;
+    /* margin-top: 100px; */
     .Gallery_heading{
         padding: 50px 100px;
         min-height:220px;

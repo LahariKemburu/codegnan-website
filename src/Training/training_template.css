@@ -1,32 +1,324 @@
-.tth{
-    margin-top: 100px;
-    padding: 50px 0px;
+.tth {
+    /* margin-top: 70px; */
+    /* padding: 50px 0px; */
 }
-.download_broucher{
-    height:36px;
+
+.download_broucher {
+    height: 36px;
     width: 340px;
-    padding:10px 20px;
-    color:white;
+    padding: 10px 20px;
+    color: white;
     border-radius: 10px;
     background-color: #ba243b;
-    button{
+
+    button {
         font-size: 16px;
-        background-color:#ba243b;
+        background-color: #ba243b;
         color: white;
         border: none;
-        span{
+
+        span {
             text-decoration: underline;
         }
+
         cursor: pointer;
     }
 }
-.ins{
-    font-size: 28px;
-    font-weight: 680;
-    color: #ba243b;
+
+
+.training_template_headerdetails {
+    display: flex;
+    justify-content: center;
+
+    .ins {
+        font-size: 28px;
+        font-weight: 680;
+        color: #ba243b;
+        padding: 10px;
+    }
+
+    .course_head_details {
+        h2 {
+            font-size: 30px;
+            padding: 10px;
+        }
+
+        width:720px;
+        padding:20px;
+        margin:10px;
+        line-height: 1.5;
+
+        p {
+            font-size: 18px;
+            padding: 20px 10px;
+        }
+    }
+
+    .ldpr {
+        text-decoration: none;
+        margin-bottom: 20px;
+        padding: 10 0px;
+
+        .t_t_icon {
+            padding: 10px;
+            font-size: 20px;
+        }
+
+        .star_t_t {
+            color: rgb(239, 181, 34);
+            font-size: 18px;
+        }
+    }
+
+    .training_template_form_1 {
+        border-top: 5px solid #ba243b;
+        background-color: #f3f3f3;
+        margin: 20px;
+        padding: 20px;
+        width: 400px;
+        border-radius: 10px;
+        line-height: 1.5;
+
+        h4 {
+            padding-bottom: 10px;
+            font-size: 24px;
+            font-weight: 500;
+        }
+
+        p {
+            font-size: 18px;
+        }
+    }
+
+    a {
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .explore-button {
+        background-color: #1AB69D;
+        border-radius: 15px;
+        color: white;
+        padding: 15px;
+        font-size: 18px;
+    }
+
+    .explore-button:hover {
+        background-color: #cc3366;
+
+    }
 }
-.course_head_details{
-    width:720px;
+
+.service_provided_in_training {
+    background-color: #11AD93;
+    padding: 30px;
+    .sevices_provided {
+        width:1000px;
+        align-items: center;
+        text-align: center;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        gap: 40px;
+        font-weight: bolder;
+        color: white;
+        justify-content: center;
+        padding: 10px;
+    }
+    .each_service {
+        height: 90px;
+        width: 140px;
+        padding: 0px 10px;
+        font-size: 13px;
+        text-align: center;
+    }
+    img {
+        height: 48px;
+        width: 48px;
+    }
+}
+.course_breif{
+    padding: 100px 0;
+    .breif_about_course{
+       padding: 20px;
+        text-align: left; 
+        width: 900px;
+        h1{
+            text-align: center;
+            font-size: 36px;
+        }
+        p{
+            line-height: 1.5;
+            font-size: 19px;
+        }
+        li{
+            list-style: none;
+            font-size: 19px;
+            line-height: 1.5;
+            padding: 5px;
+        }
+        .check_double{
+            height: 20px;
+            width:20px;
+            color:#cc3366;
+            font-weight: bolder;
+            padding: 1px;
+        }
+    }
+}
+.career_scope_container{
+    background-color:#e3f7f5;
+    padding:50px;
+}
+.career_scope{
+    padding:20 px;
+    text-align: left;
+    width:1000px;
+    h1{
+        text-align: center;
+        padding: 10px;
+    }
+    .carrer_scope_info{
+        background-color: white;
+        padding:20px;
+        line-height: 1.5;
+        font-size: 18px;
+        border-radius: 10px;
+    }
+    .each_scope{
+        padding: 20px;
+        width: 460px;
+        line-height: 1.5;
+        font-size: 18px;
+        background-color: white;
+        border-radius: 10px;
+        h4{
+            padding:10px 0;
+            color:#ba243b;
+        }
+        p{
+            margin-top: 10px;
+        }
+    }
+    .each_scope_container{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+       gap:40px;
+    }
+}
+
+.mentors_of_the_course{
+    margin:100px 0px;
+}
+.mentors_container{
+    text-align: left;
+    width:1100px;
+    .course_mentor_image{
+        height:380px;
+        width:300px;
+        border-top-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        box-shadow: 0 0 20px lightgray;
+    }
+    .metor_description{
+        padding:20px;
+       width:720px;
+       h2{
+        color: #ba243b;
+        padding: 0px 0px 20px  0px;
+       }
+       p{
+        line-height: 1.5;
+       }
+    }
+    .mentor{
+        padding:50px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+  }
+
+.course_pricing_details{
+    width:780px;
+    padding:10px;
+    p{
+        text-align: left;
+        line-height: 1.5;
+        font-size: 18px;
+    }
+}
+.other_locations_container{
+    width:800px;
+    text-align: left;
     padding:20px;
-    margin:10px;
+    border:1px solid darkgray;
+    border-radius: 10px;
+
+    .olp{
+        text-decoration: none;
+        color:#ba243b;
+    }
+    .olp:hover{
+        color:#1AB69D;
+    }
+    .olpul{
+        li{
+            list-style-type: none;
+            display: inline;
+            
+        }
+    }
 }
+
+.other_locations{
+    padding:70px 0px;
+}
+.map_grid-container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .map_grid-item1 {
+    flex: 1;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0 0 10px whitesmoke;
+    height:380px;
+    width: 560px;
+  }
+  .map_grid-item2{
+    box-shadow: 0 0 20px whitesmoke;
+    width:400px;
+    padding:40px;
+    margin-left: 60px;
+    text-align: left;
+    a{
+        text-decoration: none;
+        color:#cc3366;
+    }
+    a:hover{
+        color: #1AB69D;
+    }
+    .en-icon{
+        font-size: 25px;
+        color:green;
+    }
+    .phone-icon{
+        font-size: 25px;
+        color:green;
+    }
+    .add-icon{
+        font-size: 25px;
+        color:green;
+    }
+    span{
+        padding: 0 20px;
+        font-weight: bolder;
+    }
+    p{
+        color: darkgrey;
+        padding-left: 50px;
+    }
+
+  }

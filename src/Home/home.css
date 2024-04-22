@@ -1,10 +1,11 @@
 .home {
-    margin-top: 96px;
+    /* margin-top: 96px; */
     padding: 90px 0px 70px;
     background-color: #1F2163;
     display: flex;
     justify-content: space-around;
-    p{
+
+    p {
         font-size: 18px;
     }
 }
@@ -191,28 +192,33 @@
     }
 }
 
-.testimonials{
-    padding:64px 0px;
+.testimonials {
+    padding: 64px 0px;
     background-color: #0F1D42;
-    h1{
+
+    h1 {
         font-size: 34px;
-        color:#FFFFFF;
+        color: #FFFFFF;
     }
-    .change_color{
-        color:#1AB69D;
-        padding:none;
-      }
+
+    .change_color {
+        color: #1AB69D;
+        padding: none;
+    }
 }
-.top-notch-team{
+
+.top-notch-team {
     padding: 55px 0px;
     display: flex;
     justify-content: center;
     align-items: center;
-    .notch-team-heading{
+
+    .notch-team-heading {
         font-size: 36px;
         line-height: 1.5;
-        color:#181818;
+        color: #181818;
     }
+
     .check {
         color: #CC3366;
         padding: 5px;
@@ -222,6 +228,7 @@
     .check:hover {
         color: #1AB69D;
     }
+
     ul {
         list-style-type: none;
     }
@@ -232,76 +239,91 @@
     }
 }
 
-.div_container_notch_team{
+.div_container_notch_team {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.div_container_notch_team_section2{
-    img{
+
+.div_container_notch_team_section2 {
+    img {
         height: 300px;
-        width:200px;
+        width: 200px;
         border: none;
     }
+
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.Our_training_center{
+
+.Our_training_center {
     background-color: #ebebeb;
     padding: 80px 100px;
-    .center_details{
+
+    .center_details {
         background-color: white;
-        width:400px;
-        height:250px;
+        width: 400px;
+        height: 250px;
         border-radius: 5px;
         border: 2px solid black;
         padding: 10px;
-        margin:10px;
-        a{
+        margin: 10px;
+
+        a {
             text-decoration: none;
             color: #CC3366;
             font-weight: 800;
         }
     }
-    .phone{
+
+    .phone {
         color: #CC3366;
         padding: 10px;
     }
-    h3{
+
+    h3 {
         padding: 10px;
     }
-    p{
+
+    p {
         padding: 10px;
         line-height: 1.5;
     }
-    .div_container_training_center{
+
+    .div_container_training_center {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     }
 }
-.our_collaborations{
+
+.our_collaborations {
     padding: 100px 110px;
 }
-.still_douts{
-    color:white;
-    background-color: rgb(2, 45, 33);
-    width:1000px;
-    height:250px;
-    padding: 50px;
-   p{
-    line-height: 1.5;
-    font-size: 18px;
-   }
-   button{
-    height: 30px;
-    width: 100px;
-    cursor: pointer;
-    border:2px solid white;
-    border-radius: 5px;
-   }
-   button:hover{
-    background-color: #CC3366;
+
+.still_douts {
     color: white;
-   }
+    background-color: rgb(2, 45, 33);
+    width: 1000px;
+    height: 250px;
+    padding: 50px;
+
+    p {
+        line-height: 1.5;
+        font-size: 18px;
+    }
+
+    button {
+        height: 30px;
+        width: 100px;
+        cursor: pointer;
+        border: 2px solid white;
+        border-radius: 5px;
+
+        &:hover {
+            background-color: #CC3366;
+            color: white;
+        }
+    }
+
 }

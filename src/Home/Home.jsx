@@ -11,7 +11,6 @@ import rate6 from './rate6.webp';
 import rate7 from './rate7.webp';
 import bg from '/i.png';
 import Course_details from './Course_details';
-
 import c1 from '/images/adabella1.webp';
 import c2 from '/images/amazon.webp';
 import c3 from '/images/bankof-america.webp';

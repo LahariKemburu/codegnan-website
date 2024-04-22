@@ -11,8 +11,9 @@ export default function Nav() {
       </Link>
       
       <span className='Home'>
+
+        
         <div className="dropdown">
-          
           <button className="dropbtn">Trainings <span className='down_triangle'>&#9660;</span></button>
           <div className="dropdown-content">
             <a href="#" className="option">Python Trainings <span>&#9654;</span></a>

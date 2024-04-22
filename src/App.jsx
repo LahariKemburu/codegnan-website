@@ -16,8 +16,6 @@ import Python_training_in_hyderabad from './Training/python_training_in_hyderaba
 function App() {
   return(
     <div>
-      
-     
       <Nav/>
       <Routes>
       <Route path="/" element={<Home/>  } />
@@ -32,8 +30,6 @@ function App() {
        <Footer></Footer>    
        {/* <Companies/> */}
        {/* <Collaboration/> */}
-      
-
     </div>
   );
  

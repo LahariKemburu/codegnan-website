@@ -19,7 +19,7 @@ function Collaboration() {
     <div className="w-3/4 m-auto">
       <div className="mt-20">
       <Slider {...settings}>
-        {data.map((d) =>(
+        {/* {data.map((d) =>(
             <div className="" >
               <div className='collaboration-one' style={{backgroundColor:"white"}}>
                 <img src={d.img} alt="Error" className="collaboration"  style={{width:"120px",height:"120px"}}/>
@@ -27,7 +27,15 @@ function Collaboration() {
              
             </div>
             
-        ))}
+        ))} */}
+        {data.map((d, index) => (
+  <div key={index}>
+    <div className='collaboration-one' style={{backgroundColor:"white"}}>
+      <img src={d.img} alt="Error" className="collaboration" style={{width:"120px",height:"120px"}}/>
+    </div>
+  </div>
+))}
+
       </Slider>
       </div>
       
