@@ -92,8 +92,8 @@ export default function Nav() {
             <a href="#" className="option">Syllabus <span>&#9654;</span></a>
             <div className="side-listings">
               <ul>
-                <a href="./java_course_page"><li>Java Syllabus</li></a>
-                <a href="./ds_course_page"><li>Data structures</li></a>
+                <a href="/java_course_page"><li>Java Syllabus</li></a>
+                <a href="/ds_course_page"><li>Data structures</li></a>
                 <li>Python syllabus</li>
                 <li>React JS syllabus</li>
                 <li>C language syllabus</li>
@@ -105,13 +105,13 @@ export default function Nav() {
         </div>
 
 
-        <a className="dropbtn" href="./placements">Placements</a>
+        <a className="dropbtn" href="/placements">Placements</a>
 
         <div className="dropdown">
           <button className="dropbtn">About <span className='down_triangle'>&#9660;</span></button>
           <div className="dropdown-content">
-            <a href="./about" className="option">Team </a>
-            <a href="./gallery" className="option">Gallery</a>
+            <a href="/about" className="option">Team </a>
+            <a href="/gallery" className="option">Gallery</a>
             <a href="#" className="option">Internships</a>
             <a href="#" className="option">Job Accelerator Program</a>
           </div>
