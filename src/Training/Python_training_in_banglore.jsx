@@ -115,16 +115,6 @@ const mentorsData={
       name:"Sairam Uppugundla",
       description:" Sairam Uppugundla is the CEO and founder of Codegnan IT Solutions. With a strong background in Computer Science and over 10 years of experience, he is committed to bridging the gap between academia and industry.\n Sairam Uppugundla is a dedicated IT professional with a Bachelor’s in Technology and Computer science with 10+ years of experience in this field.\nTo achieve his mission, Sairam Uppugundla decided to leave his position as a Data Engineer in Malaysia, returned to Andhra Pradesh, and established Codegnan. \nIn 2018, his deep-rooted interest in teaching led him to change his career, shifting his focus to bring up the next generation of engineers. ",
       image:"/members/sairam-sir.webp"
-    },
-    {
-      name:"Sairam Uppugundla",
-      description:" Sairam Uppugundla is the CEO and founder of Codegnan IT Solutions. With a strong background in Computer Science and over 10 years of experience, he is committed to bridging the gap between academia and industry.\n Sairam Uppugundla is a dedicated IT professional with a Bachelor’s in Technology and Computer science with 10+ years of experience in this field.\nTo achieve his mission, Sairam Uppugundla decided to leave his position as a Data Engineer in Malaysia, returned to Andhra Pradesh, and established Codegnan. \nIn 2018, his deep-rooted interest in teaching led him to change his career, shifting his focus to bring up the next generation of engineers. ",
-      image:"/members/sairam-sir.webp"
-    },
-    {
-      name:"Sairam Uppugundla",
-      description:" Sairam Uppugundla is the CEO and founder of Codegnan IT Solutions. With a strong background in Computer Science and over 10 years of experience, he is committed to bridging the gap between academia and industry.\n Sairam Uppugundla is a dedicated IT professional with a Bachelor’s in Technology and Computer science with 10+ years of experience in this field.\nTo achieve his mission, Sairam Uppugundla decided to leave his position as a Data Engineer in Malaysia, returned to Andhra Pradesh, and established Codegnan. \nIn 2018, his deep-rooted interest in teaching led him to change his career, shifting his focus to bring up the next generation of engineers. ",
-      image:"/members/sairam-sir.webp"
     }
   ]
 }
