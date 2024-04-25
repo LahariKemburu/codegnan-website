@@ -105,7 +105,8 @@ export default function Nav() {
         </div>
 
 
-        <a className="dropbtn" href="/placements">Placements</a>
+{/*         <a className="dropbtn" href="/placements">Placements</a> */}
+         <Link className="dropbtn" to="/placements" onClick={scrollToTop}>Placements</Link>
 
         <div className="dropdown">
           <button className="dropbtn">About <span className='down_triangle'>&#9660;</span></button>
