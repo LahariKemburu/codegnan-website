@@ -19,8 +19,8 @@ export default function Nav() {
             <a href="#" className="option">Python Trainings <span>&#9654;</span></a>
             <div className="side-listings">
               <ul>
-                <a href="./python_training_in_banglore"><li>In Banglore </li></a>
-                <a href="./python_training_in_hyderabad"><li>In Hyderabad</li></a>
+                <a href="/python_training_in_banglore"><li>In Banglore </li></a>
+                <a href="/python_training_in_hyderabad"><li>In Hyderabad</li></a>
                 <li>In Vijayawada</li>
               </ul>
             </div>
