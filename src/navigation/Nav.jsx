@@ -9,7 +9,7 @@ export default function Nav() {
   return (
     <div  className="Navbar">
       <Link to="/"> 
-      <img id="logo" src={logo} onClick={scrollToTop} alt="Logo" />
+      <img id="logo" src={logo} onClick={() => scrollTo(0,0)} alt="Logo" />
       </Link>
       
       <span className='Home'>
@@ -21,18 +21,18 @@ export default function Nav() {
             <a href="#" className="option">Python Trainings <span>&#9654;</span></a>
             <div className="side-listings">
               <ul>
-                <Link to="/python_training_in_banglore" onClick={scrollToTop}><li>In Banglore </li></Link>
-                <Link to="/python_training_in_hyderabad" onClick={scrollToTop}><li>In Hyderabad</li></Link>
-                <Link to="/python_training_in_Vijayawada" onClick={scrollToTop} ><li>In Vijayawada</li></Link>
+                <Link to="/python_training_in_banglore" onClick={() => scrollTo(0,0)}><li>In Banglore </li></Link>
+                <Link to="/python_training_in_hyderabad" onClick={() => scrollTo(0,0)}><li>In Hyderabad</li></Link>
+                <Link to="/python_training_in_Vijayawada" onClick={() => scrollTo(0,0)} ><li>In Vijayawada</li></Link>
                 
               </ul>
             </div>
             <a href="#" className="option">Python full stack <span>&#9654;</span></a>
             <div className="side-listings">
               <ul>
-              <Link to="/python-full-stack-developer-in-banglore" onClick={scrollToTop}><li>In Banglore</li></Link>
-              <Link to="/python-full-stack-developer-in-hyderabad" onClick={scrollToTop}><li>In Hyderabad</li></Link>
-              <Link to="/python-full-stack-developer-in-vijayawada" onClick={scrollToTop}> <li>In Vijayawada</li></Link>
+              <Link to="/python-full-stack-developer-in-banglore" onClick={() => scrollTo(0,0)}><li>In Banglore</li></Link>
+              <Link to="/python-full-stack-developer-in-hyderabad" onClick={() => scrollTo(0,0)}><li>In Hyderabad</li></Link>
+              <Link to="/python-full-stack-developer-in-vijayawada" onClick={() => scrollTo(0,0)}> <li>In Vijayawada</li></Link>
              
               </ul>
             </div>
@@ -108,13 +108,13 @@ export default function Nav() {
           </div>
         </div>
 
-        <Link className="dropbtn" to="/placements" onClick={scrollToTop}>Placements</Link>
+        <Link className="dropbtn" to="/placements" onClick={() => scrollTo(0,0)}>Placements</Link>
 
         <div className="dropdown">
           <button className="dropbtn">About <span className='down_triangle'>&#9660;</span></button>
           <div className="dropdown-content">
-            <Link to="/about" className="option" onClick={scrollToTop}>Team </Link>
-            <Link to="/gallery" className="option" onClick={scrollToTop}>Gallery</Link>
+            <Link to="/about" className="option" onClick={() => scrollTo(0,0)}>Team </Link>
+            <Link to="/gallery" className="option" onClick={() => scrollTo(0,0)}>Gallery</Link>
             <a href="#" className="option">Internships</a>
             <a href="#" className="option">Job Accelerator Program</a>
           </div>
